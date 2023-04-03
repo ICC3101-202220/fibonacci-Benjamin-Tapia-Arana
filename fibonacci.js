@@ -3,8 +3,8 @@ function fibonacci_sequence(number) {
     var n1 = 0;
     var n2 = 1;
     if (number <= 1) {
-        if(number == 1) {return console.log(`F(${n2}) = ${n2}`);}
-        else {return console.log(`F(${n1}) = ${n1}`);}
+        if(number == 1) {return console.log(`F(${n2}) = ${n2}\n`);}
+        else {return console.log(`F(${n1}) = ${n1}\n`);}
     }
     else {
         for (var i = 0; i < number; i++) {
